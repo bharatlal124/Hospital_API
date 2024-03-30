@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 //Connect to  the Database
 mongoose.connect(
-  /*"mongodb://localhost/HospitalAPI"*/ "mongodb+srv://bharatlalsohna:NnteCo5KnzUpjdIl@hospitalapi.ka9jqyi.mongodb.net/?retryWrites=true&w=majority&appName=HospitalAPI",
+  "mongodb://localhost/HospitalAPI" ,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

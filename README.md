@@ -2,7 +2,7 @@
 
 ## Description :
 
-I have design an API using Node.js and MongoDB for the doctors of a Hospital which has been allocated by the govt for testing and quarantine + well being of COVID-19 patients.
+This project involves designing a Node.js-based API for managing COVID-19 patients and doctor interactions within a hospital setting. The API allows doctors to register and log in, register patients, create patient reports after checkups, and retrieve patient reports based on various criteria.
 
 ## Features :
 
@@ -251,10 +251,17 @@ There can be 2 types of Users
 }
 ```
 
-## Folder Structure
+## Folder Structure:
 
 - **Entry point** : index.js.
 - **config** : Contains configuration files of Mongoose,Passport JWT Strategies and Status.
 - **controllers** : The controllers for various urls like Doctor API or Patient API or Report API.
 - **models** : Mongoose Schemas for the Doctors, Patients and reports.
 - **routes** : Different routes for different request urls.
+
+## Technology Stack:
+
+- **Node.js** : A runtime environment for executing JavaScript code server-side.
+- **MongoDB** : A NoSQL database used for storing data in JSON-like documents.
+- **Express.js** : A web application framework for Node.js used for creating RESTful APIs.
+- **JWT (JSON Web Tokens)** : Used for authentication purposes to secure certain routes.
